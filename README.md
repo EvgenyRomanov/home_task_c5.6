@@ -1,4 +1,4 @@
-# Проект 3. Telegram-бот на python
+# Проект 2. Telegram-бот на python
 
 ## Оглавление  
 [1. Описание проекта](https://github.com/EvgenyRomanov/home_task_c5.6/blob/main/README.md#описание-проекта)  
