@@ -6,7 +6,7 @@
 [3. Краткая информация о данных](https://github.com/EvgenyRomanov/home_task_c5.6/blob/main/README.md#краткая-информация-о-данных)  
 [4. Этапы работы над проектом](https://github.com/EvgenyRomanov/home_task_c5.6/blob/main/README.md#этапы-работы-над-проектом)  
 [5. Результат](https://github.com/EvgenyRomanov/home_task_c5.6/blob/main/README.md#результаты)    
-[6. Выводы](https://github.com/EvgenyRomanov/home_task_c5.6/blob/main/README.md#выводы) 
+
 
 ### Описание проекта    
 Реализация telegram-бота на python для получения курса валют.
@@ -15,28 +15,29 @@
 
 
 ### Какой кейс решаем?    
-Нужно написаьт telegram-бота, который бы через API и библиотеки Requests возращал по запросу пользователя акткульные курсы валют.
+Нужно написаьт telegram-бота, который через API стороннего сервиса и библиотеки Requests возращал по запросу пользователя акткульные курсы валют.
 
 **Условия:**  
-- ???.
-- ???.
-
-**Метрика качества**     
-???.
+- Для получения курса валют необходимо использовать API cryptocompare.com и отправлять к нему запросы с помощью библиотеки Requests.
+- Для парсинга полученных ответов использовать библиотеку JSON.
+- При написании бота необходимо использовать библиотеку pytelegrambotapi.
 
 **Что практикуем**     
-????.
+Использование в работе библиотек json, pytelegrambotapi и прицов ООП при реализации кода.
+
 
 
 ### Краткая информация о данных
-????.
+API сервис cryptocompare.com.
   
 :arrow_up:[к оглавлению](https://github.com/EvgenyRomanov/home_task_c5.6/blob/main/README.md#оглавление)
 
 
 ### Этапы работы над проектом  
-- ????.
-- ????.
+- Регистрация бота.
+- Реализация обработчиков бота.
+- Получение информации через API.
+- Рефакторинг кода.
 
 :arrow_up:[к оглавлению](https://github.com/EvgenyRomanov/home_task_c5.6/blob/main/README.md#оглавление)
 
@@ -47,8 +48,3 @@ https://github.com/EvgenyRomanov/home_task_c5.6/blob/main/result2.png
 
 :arrow_up:[к оглавлению](https://github.com/EvgenyRomanov/home_task_c5.6/blob/main/README.md#оглавление)
 
-
-### Выводы:  
-???.
-
-:arrow_up:[к оглавлению](https://github.com/EvgenyRomanov/home_task_c5.6/blob/main/README.md#оглавление)
